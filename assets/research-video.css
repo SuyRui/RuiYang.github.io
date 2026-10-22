@@ -1,0 +1,7 @@
+/* Research project media; existing site typography and theme remain inherited. */
+.research-media{margin:16px 0 0;max-width:280px}
+.research-video{display:block;width:100%;height:auto;aspect-ratio:9/16;object-fit:contain;background:#111;border:1px solid var(--line);border-radius:12px}
+.research-video:focus-visible{outline:2px solid var(--heading);outline-offset:4px}
+.research-media figcaption{display:flex;align-items:center;flex-wrap:wrap;gap:7px;margin-top:9px;color:var(--soft);font-size:11px;line-height:1.6}
+.video-speed{padding:2px 7px;border-radius:999px;color:var(--accent);background:var(--wash);font-size:10px;font-weight:600}
+@media(max-width:650px){.research-media{max-width:240px}.research-video{border-radius:10px}}
