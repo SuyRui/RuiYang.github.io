@@ -10,3 +10,13 @@
 .media-project:focus{outline:2px solid var(--accent);outline-offset:3px}
 
 #liu-liu-research{scroll-margin-top:100px}
+
+#yueying-experience{scroll-margin-top:100px}
+.photo-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}
+.photo-grid figure{margin:0;min-width:0}
+.photo-grid a{display:block;border-radius:12px;overflow:hidden}
+.photo-grid a:focus-visible{outline:2px solid var(--accent);outline-offset:4px}
+.photo-grid img{display:block;width:100%;height:auto}
+.photo-grid figcaption{margin-top:10px;font-size:12px;line-height:1.6;color:var(--muted)}
+.racing-gallery .media-back{margin:20px 0 0;font-size:13px}
+@media(max-width:650px){.photo-grid{grid-template-columns:minmax(0,1fr)}}
